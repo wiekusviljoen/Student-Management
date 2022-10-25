@@ -1,11 +1,13 @@
 ﻿using Crud_Database.Data;
 using Crud_Database.Models;
 using Crud_Database.Models.Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Crud_Database.Controllers
 {
+    [Authorize]
     public class StudentsController : Controller
     {
         private readonly MVCDemoDbContext1 mvcDemoDbContext1;
