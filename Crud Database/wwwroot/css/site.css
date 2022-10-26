@@ -39,7 +39,7 @@ body {
     left: 200px;
     position: absolute;
     top: 140px;
-
+    transform: rotate(-20deg);
 }
 
 .note {
