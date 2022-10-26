@@ -26,6 +26,51 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+    .nav-item1:hover {
+        background-color: #0cf7cc;
+        border-radius: 10px;
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    }
+
+.nav-item1:active{
+    transform:rotate(360deg);
+    transition-duration:2s;
+    text-decoration-line:underline;
+}
+
+.nav-item2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    .nav-item2:hover {
+        background-color: #0cf7cc;
+        border-radius: 10px;
+        
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    }
+.nav-item2:active {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+
+.nav-item3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    .nav-item3:hover {
+        background-color: #0cf7cc;
+        border-radius: 10px;
+        
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    }
+.nav-item3:active {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+
 .text-center {
     background-color: #161414;
     border-block-color: aliceblue;
@@ -57,11 +102,6 @@ body {
     transform:rotate(-20deg);
     font-size:15px;
     
-    
-}
-
-.sum:hover{
-    font-size:60px;
     
 }
 
