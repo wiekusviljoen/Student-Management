@@ -29,8 +29,7 @@ body {
     .nav-item1:hover {
         background-color: #0cf7cc;
         border-radius: 10px;
-        transform: rotate(360deg);
-        transition-duration: 0.5s;
+      
     }
 
 .nav-item1:active{
@@ -47,8 +46,7 @@ body {
         background-color: #0cf7cc;
         border-radius: 10px;
         
-        transform: rotate(360deg);
-        transition-duration: 0.5s;
+      
     }
 .nav-item2:active {
     transform: rotate(360deg);
@@ -63,8 +61,7 @@ body {
         background-color: #0cf7cc;
         border-radius: 10px;
         
-        transform: rotate(360deg);
-        transition-duration: 0.5s;
+       
     }
 .nav-item3:active {
     transform: rotate(360deg);
@@ -86,6 +83,10 @@ body {
     top: 140px;
     transform: rotate(-20deg);
 }
+.heart:hover{
+    transform:rotate(360deg);
+    transition-duration:1s;
+}
 
 .note {
     position: absolute;
@@ -93,16 +94,68 @@ body {
     position: absolute;
     top: 240px;
 }
+    .note:hover {
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    }
 
-.sum {
+
+.sum1 {
+    
+    transform: rotate(20deg);
+    position:absolute;right:400px;
+    
+}
+
+    .sum1:hover {
+        transform:rotate(340deg);
+        transition-duration:0.5s;
+        
+        font-weight:bold;
+       
+    }
+
+.sum2 {
+    position: absolute;
+    right: 350px;
+}
+
+.sum2:hover {
+    transform: rotate(340deg);
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+.sum3 {
+    position: absolute;
+    right: 300px;
+}
+
+.sum3:hover {
+    transform: rotate(340deg);
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+.sum4 {
+    position: absolute;
+    right: 250px;
+}
+.sum4:hover {
+    transform: rotate(340deg);
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+.sum5 {
     position: absolute;
     right: 200px;
-    position: absolute;
-    top: 400px;
-    transform:rotate(-20deg);
-    font-size:15px;
-    
-    
+}
+
+.sum5:hover {
+    transform: rotate(340deg);
+    transition-duration: 0.5s;
+    font-weight: bold;
 }
 
 .smile {
@@ -111,4 +164,9 @@ body {
     
 }
 
+.smile:hover {
+    transform: rotate(340deg);
+    transition-duration: 0.5s;
+  
+}
 
